@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		681A342A1BE7876D0088AB93 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681A34291BE7876D0088AB93 /* MainViewController.swift */; };
 		681A342C1BE7886E0088AB93 /* NotificationDisposableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681A342B1BE7886E0088AB93 /* NotificationDisposableViewController.swift */; };
+		681A342E1BE81BDB0088AB93 /* GithubAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681A342D1BE81BDB0088AB93 /* GithubAPIViewController.swift */; };
 		6885D03D1BE76E260046A578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6885D03C1BE76E260046A578 /* AppDelegate.swift */; };
 		6885D03F1BE76E260046A578 /* SimpleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6885D03E1BE76E260046A578 /* SimpleLoginViewController.swift */; };
 		6885D0421BE76E260046A578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6885D0401BE76E260046A578 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		5121477C623A36F6A8C05909 /* Pods-Cocoaheads.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cocoaheads.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cocoaheads/Pods-Cocoaheads.release.xcconfig"; sourceTree = "<group>"; };
 		681A34291BE7876D0088AB93 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		681A342B1BE7886E0088AB93 /* NotificationDisposableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationDisposableViewController.swift; sourceTree = "<group>"; };
+		681A342D1BE81BDB0088AB93 /* GithubAPIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPIViewController.swift; sourceTree = "<group>"; };
 		6885D0391BE76E260046A578 /* Cocoaheads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocoaheads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6885D03C1BE76E260046A578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6885D03E1BE76E260046A578 /* SimpleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLoginViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +56,7 @@
 		6885D0581BE76E260046A578 /* CocoaheadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaheadsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6885D05C1BE76E260046A578 /* CocoaheadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaheadsUITests.swift; sourceTree = "<group>"; };
 		6885D05E1BE76E260046A578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6885D06A1BE76E7F0046A578 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6885D06A1BE76E7F0046A578 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B1A8D9B2DB8B2E9BC5BF3AB6 /* Pods_Cocoaheads.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cocoaheads.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C002EC812064807147203427 /* Pods-Cocoaheads.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cocoaheads.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cocoaheads/Pods-Cocoaheads.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,6 +138,7 @@
 				6885D0481BE76E260046A578 /* Info.plist */,
 				681A34291BE7876D0088AB93 /* MainViewController.swift */,
 				681A342B1BE7886E0088AB93 /* NotificationDisposableViewController.swift */,
+				681A342D1BE81BDB0088AB93 /* GithubAPIViewController.swift */,
 			);
 			path = Cocoaheads;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				681A342A1BE7876D0088AB93 /* MainViewController.swift in Sources */,
 				681A342C1BE7886E0088AB93 /* NotificationDisposableViewController.swift in Sources */,
 				6885D03F1BE76E260046A578 /* SimpleLoginViewController.swift in Sources */,
+				681A342E1BE81BDB0088AB93 /* GithubAPIViewController.swift in Sources */,
 				6885D03D1BE76E260046A578 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

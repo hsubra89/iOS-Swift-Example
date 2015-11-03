@@ -1,16 +1,19 @@
 PODS:
   - Argo (2.2.0)
+  - Curry (1.4.0)
   - RxCocoa (2.0.0-beta.1):
     - RxSwift (~> 2.0.0-beta)
   - RxSwift (2.0.0-beta.1)
 
 DEPENDENCIES:
   - Argo (= 2.2.0)
+  - Curry
   - RxCocoa (= 2.0.0-beta.1)
   - RxSwift (= 2.0.0-beta.1)
 
 SPEC CHECKSUMS:
   Argo: 4f52a32b4cd913c204e5a45f420b3fccad3e3f24
+  Curry: 294533187eedbf52db60a1e70c29b4f5c9f621c0
   RxCocoa: a3c35a39c3b4e8175f271bd3a28be8ca52f97c93
   RxSwift: a9b0f4d876eac130cda0ae2f3fba627be3baf3ef
 
