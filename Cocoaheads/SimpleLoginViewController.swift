@@ -34,12 +34,9 @@ class SimpleLoginViewController: UIViewController {
         let usernameCount$ = username$.map({ $0.characters.count })
         let passwordCount$ = password$.map({ $0.characters.count })
         
-        combineLatest(usernameCount$, passwordCount$, resultSelector: { ($0, $1) })
-        .subscribeNext({ (usernameCount, passwordCount) -> Void in
-            
-            let enabled = usernameCount > 0 && passwordCount > 0
+        combineLatest(usernameCount$, passwordCount$, resultSelector: { $0 > 0 && $1 > 0 }) // Returns value as a tuple (usernameCount, passwordCount)
+        .subscribeNext({ enabled -> Void in
             self.submitButton.enabled = enabled;
-            
             print("Submit \(enabled ? "Enabled" : "Disabled")")
         })
         

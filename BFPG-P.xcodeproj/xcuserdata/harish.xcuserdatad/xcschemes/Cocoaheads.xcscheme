@@ -17,7 +17,7 @@
                BlueprintIdentifier = "6885D0381BE76E260046A578"
                BuildableName = "Cocoaheads.app"
                BlueprintName = "Cocoaheads"
-               ReferencedContainer = "container:Cocoaheads.xcodeproj">
+               ReferencedContainer = "container:BFPG-P.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "6885D04C1BE76E260046A578"
                BuildableName = "CocoaheadsTests.xctest"
                BlueprintName = "CocoaheadsTests"
-               ReferencedContainer = "container:Cocoaheads.xcodeproj">
+               ReferencedContainer = "container:BFPG-P.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "6885D0571BE76E260046A578"
                BuildableName = "CocoaheadsUITests.xctest"
                BlueprintName = "CocoaheadsUITests"
-               ReferencedContainer = "container:Cocoaheads.xcodeproj">
+               ReferencedContainer = "container:BFPG-P.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "6885D0381BE76E260046A578"
             BuildableName = "Cocoaheads.app"
             BlueprintName = "Cocoaheads"
-            ReferencedContainer = "container:Cocoaheads.xcodeproj">
+            ReferencedContainer = "container:BFPG-P.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "6885D0381BE76E260046A578"
             BuildableName = "Cocoaheads.app"
             BlueprintName = "Cocoaheads"
-            ReferencedContainer = "container:Cocoaheads.xcodeproj">
+            ReferencedContainer = "container:BFPG-P.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "6885D0381BE76E260046A578"
             BuildableName = "Cocoaheads.app"
             BlueprintName = "Cocoaheads"
-            ReferencedContainer = "container:Cocoaheads.xcodeproj">
+            ReferencedContainer = "container:BFPG-P.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

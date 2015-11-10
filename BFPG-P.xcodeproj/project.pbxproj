@@ -57,6 +57,7 @@
 		6885D05C1BE76E260046A578 /* CocoaheadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaheadsUITests.swift; sourceTree = "<group>"; };
 		6885D05E1BE76E260046A578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6885D06A1BE76E7F0046A578 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		68B64C8D1BE883B800F73B2D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = SOURCE_ROOT; };
 		B1A8D9B2DB8B2E9BC5BF3AB6 /* Pods_Cocoaheads.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cocoaheads.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C002EC812064807147203427 /* Pods-Cocoaheads.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cocoaheads.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cocoaheads/Pods-Cocoaheads.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +131,7 @@
 		6885D03B1BE76E260046A578 /* Cocoaheads */ = {
 			isa = PBXGroup;
 			children = (
+				68B64C8D1BE883B800F73B2D /* MyPlayground.playground */,
 				6885D03C1BE76E260046A578 /* AppDelegate.swift */,
 				6885D03E1BE76E260046A578 /* SimpleLoginViewController.swift */,
 				6885D0401BE76E260046A578 /* Main.storyboard */,
@@ -243,7 +245,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6885D0341BE76E260046A578 /* Build configuration list for PBXProject "Cocoaheads" */;
+			buildConfigurationList = 6885D0341BE76E260046A578 /* Build configuration list for PBXProject "BFPG-P" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -561,7 +563,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6885D0341BE76E260046A578 /* Build configuration list for PBXProject "Cocoaheads" */ = {
+		6885D0341BE76E260046A578 /* Build configuration list for PBXProject "BFPG-P" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6885D05F1BE76E260046A578 /* Debug */,
