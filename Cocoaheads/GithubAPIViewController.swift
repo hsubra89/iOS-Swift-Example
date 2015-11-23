@@ -14,7 +14,7 @@ import Argo
 import Curry
 
 // MARK: Return shared NSURLSession for the related Rx Methods
-var LocalURLSession: NSURLSession = {
+private var LocalURLSession: NSURLSession = {
     
     var config = NSURLSessionConfiguration.defaultSessionConfiguration()
     
@@ -31,7 +31,7 @@ var LocalURLSession: NSURLSession = {
 }()
 
 
-func random(range: Range<Int> ) -> Int {
+private func random(range: Range<Int> ) -> Int {
     
     var offset = 0
     
@@ -45,7 +45,7 @@ func random(range: Range<Int> ) -> Int {
     return Int(mini + arc4random_uniform(maxi - mini)) - offset
 }
 
-let backgroundDispatchScheduler = SerialDispatchQueueScheduler(globalConcurrentQueuePriority: .High)
+private let backgroundDispatchScheduler = SerialDispatchQueueScheduler(globalConcurrentQueuePriority: .High)
 
 class GithubAPIViewController: UIViewController {
 
@@ -76,7 +76,7 @@ class GithubAPIViewController: UIViewController {
         viewLogic()
     }
     
-    func getData(user: UserItem?) -> Observable<(label: String?, image: UIImage?)> {
+    private func getData(user: UserItem?) -> Observable<(label: String?, image: UIImage?)> {
         
         // If User is not set
         guard let user = user else {
@@ -186,7 +186,7 @@ class GithubAPIViewController: UIViewController {
 
 
 
-struct UserItem {
+private struct UserItem {
     let avatar_url: String
     let login: String
 }
